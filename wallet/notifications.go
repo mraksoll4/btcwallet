@@ -8,13 +8,13 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/mraksoll4/btcd/chaincfg/chainhash"
+	"github.com/mraksoll4/btcd/txscript"
+	"github.com/mraksoll4/btcd/wire"
+	"github.com/mraksoll4/btcutil"
+	"github.com/mraksoll4/btcwallet/waddrmgr"
+	"github.com/mraksoll4/btcwallet/walletdb"
+	"github.com/mraksoll4/btcwallet/wtxmgr"
 )
 
 // TODO: It would be good to send errors during notification creation to the rpc

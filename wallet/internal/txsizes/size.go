@@ -5,10 +5,10 @@
 package txsizes
 
 import (
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/mraksoll4/btcd/blockchain"
+	"github.com/mraksoll4/btcd/wire"
 
-	h "github.com/btcsuite/btcwallet/internal/helpers"
+	h "github.com/mraksoll4/btcwallet/internal/helpers"
 )
 
 // Worst case script and input/output size estimates.
